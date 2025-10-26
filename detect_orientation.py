@@ -158,7 +158,7 @@ def predict_with_model(img, model):
     
     return orientation, confidence, features
 
-def process_folder_with_model(folder_path, model, output_csv="trained_predictions.csv", rotate=False, confidence_threshold=0.6):
+def process_folder_with_model(folder_path, model, output_csv="trained_predictions.csv", rotate=False, confidence_threshold=0.65):
     """Process images using trained model"""
     results = []
     rotated_count = 0
